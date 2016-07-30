@@ -18,6 +18,10 @@ app.config(function($routeProvider){
         templateUrl: 'app/views/request.html',
         controller: 'requestController',
     })
+    .when('/tech-login', {
+        templateUrl: 'app/views/tech-login.html',
+        controller: 'techLoginController',
+    })    
     
     .otherwise({
         redirectTo: '/intro'

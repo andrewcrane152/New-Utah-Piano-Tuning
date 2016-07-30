@@ -112,6 +112,29 @@ h2:after {
     margin-bottom: 0px;
 }
 
+.text-left {
+    text-align: left;
+}
+
+.text-orange {
+    color: #e67e22;
+    font-weight: 500;
+}
+
+.center-btn {
+    width: 10%;
+    min-width: 140px;
+    margin: auto;
+}
+
+.top-spacer {
+    margin-top: 100px;
+}
+
+.fill-parent {
+    min-width: 100%;
+}
+
 /* ----- PARAGRAPHS ----- */
 .long-copy {
     line-height: 165%;
@@ -213,7 +236,7 @@ input[type=submit] {
     border: 1px solid #e67e22;
     color: #fff;
     margin: 0;
-    
+    text-align: center;
 }
 
 .btn-ghost:link,
@@ -254,6 +277,26 @@ header {
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
+}
+
+.header-title {
+    color: #555;
+    padding: 8px;
+    font-weight: 500px !important;
+    word-spacing: 1.2px;
+    letter-spacing: 2px;
+}
+
+.header-title-link {
+    border: none !important;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.header-title-link:hover,
+.header-title-link:visited, {
+    text-decoration: none !important;
+    border: none !important;
 }
 
 .hero-text-box {
@@ -428,52 +471,6 @@ header {
 
 
 /* ----------------------------------------------- */
-/* MEALS */
-/* ----------------------------------------------- */
-
-.section-meals {
-    padding: 0;
-}
-
-.meals-showcase {
-    list-style: none;
-    width: 100%;
-}
-
-.meals-showcase li {
-    display: block;
-    float: left;
-    width: 25%;
-}
-
-.meal-photo {
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    background-color: #000;
-}
-
-.meal-photo img {
-    opacity: 0.7;
-    width: 100%;
-    height: auto;
-    -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    transform: scale(1.15);
-    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s;
-}
-
-.meal-photo img:hover {
-    opacity: 1;
-    -webkit-transform: scale(1.03);
-    -ms-transform: scale(1.03);
-    transform: scale(1.03);
-}
-
-
-
-/* ----------------------------------------------- */
 /* HOW IT WORKS SECTION */
 /* ----------------------------------------------- */
 
@@ -534,6 +531,23 @@ header {
     margin-right: 10px;
 }
 
+
+/* ----------------------------------------------- */
+/* TECHNICIAN LOGIN */
+/* ----------------------------------------------- */
+
+#login-landing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.45)), url(../images/technician.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color:  #fff;
+}
+
+.login-landing-buttons{
+    margin-top: 15px !important;
+}
 
 /* ----------------------------------------------- */
 /* TESTIMONIALS */
